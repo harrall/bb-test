@@ -3,7 +3,9 @@
 library(tidyverse)
 library(ggthemes)
 
+# bb_19_13 <- read.csv("data/murders.csv")
 bb <- bb_19_13
+save(bb, file = "rda/bb.rda")
 
 # Alt 1
 p <- bb %>%
